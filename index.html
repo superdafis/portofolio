@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Danish A.S.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#">Beranda</a>
+            <a class="nav-link" href="#project">Karya</a>
+            <a class="nav-link disabled" href="#contact">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container d-flex flex-column text-center">
+        <img
+          src="img/foto profil.png"
+          class="mx-auto mb-5"
+          alt="Foto Profil"
+          width="250"
+        />
+        <p class="fw-medium">
+          Hai, nama saya Danish Afif Setyadiyawan, seorang siswa SMA.
+        </p>
+        <p class="fw-medium mb-5">
+          Di Portfolio ini, anda dapat melihat karya-karya yang pernah saya
+          hasilkan.
+        </p>
+        <div class="social-media d-flex justify-content-evenly">
+          <a
+            href="https://instagram.com/danish.afs"
+            class="text-dark"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="https://youtube.com/@superdafis247"
+            class="text-dark"
+            target="_blank"
+            ><i class="bi bi-youtube"></i
+          ></a>
+          <a
+            href="https://tiktok.com/@danis1_5"
+            class="text-dark"
+            target="_blank"
+            ><i class="bi bi-tiktok"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <section id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="mb-4">Karya Saya</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="img/web ayo tangsel.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web Ayo Tangsel</h5>
+                <p class="card-text">
+                  Web Ayo Tangsel berisi daftar tempat-tempat mulai dari Pasar
+                  Swalayan, Restoran, Sekolah, dan Tempat Wisata.
+                </p>
+                <a
+                  href="https://ayotangsel.000webhostapp.com/"
+                  target="_blank"
+                  class="btn"
+                  >Kunjungi</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="mb-4">Kontak Saya</h2>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <fieldset disabled>
+                <div class="mb-3">
+                  <label for="disabled nama" class="form-label"
+                    >Disabled Nama</label
+                  >
+                  <input
+                    type="text"
+                    id="disabled nama"
+                    class="form-control"
+                    placeholder="Disabled"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="disabled pesan" class="form-label"
+                    >Disabled Pesan</label
+                  >
+                  <textarea
+                    type="text"
+                    id="disabled pesan"
+                    class="form-control"
+                    placeholder="Disabled"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="px-3 rounded-pill">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section></section>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
