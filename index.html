@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="bootstrap-icons/font/bootstrap-icons.min.css"
     />
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -28,14 +29,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="#">Beranda</a>
-            <a class="nav-link" href="#project">Karya</a>
-            <a class="nav-link disabled" href="#contact">Kontak</a>
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#skill">Skill</a>
+            <a class="nav-link" href="#project">Project</a>
           </div>
         </div>
       </div>
     </nav>
 
+    <!-- Jumbotron -->
     <div class="jumbotron">
       <div class="container d-flex flex-column text-center">
         <img
@@ -73,12 +75,27 @@
         </div>
       </div>
     </div>
+    <!-- Akhir Jumbotron -->
 
+    <!-- Skill -->
+    <section id="skill">
+      <h2 class="mb-4">Tech Skill</h2>
+      <div class="tech">
+        <h5><i class="fa-brands fa-html5"></i> HTML</h5>
+        <h5><i class="fa-brands fa-css3"></i> CSS</h5>
+        <h5><i class="fa-brands fa-js"></i> Javascript</h5>
+        <h5><i class="fa-brands fa-php"></i> PHP</h5>
+        <h5><i class="fa-brands fa-bootstrap"></i> Bootstrap</h5>
+      </div>
+    </section>
+    <!-- Akhir Skill -->
+
+    <!-- Project -->
     <section id="project">
-      <div class="container">
+      <div class="container mb-5">
         <div class="row">
           <div class="col text-center">
-            <h2 class="mb-4">Karya Saya</h2>
+            <h2 class="mb-4">My Project</h2>
           </div>
         </div>
         <div class="row">
@@ -107,50 +124,10 @@
         </div>
       </div>
     </section>
+    <!-- Akhir Project -->
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <h2 class="mb-4">Kontak Saya</h2>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-8">
-            <form>
-              <fieldset disabled>
-                <div class="mb-3">
-                  <label for="disabled nama" class="form-label"
-                    >Disabled Nama</label
-                  >
-                  <input
-                    type="text"
-                    id="disabled nama"
-                    class="form-control"
-                    placeholder="Disabled"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="disabled pesan" class="form-label"
-                    >Disabled Pesan</label
-                  >
-                  <textarea
-                    type="text"
-                    id="disabled pesan"
-                    class="form-control"
-                    placeholder="Disabled"
-                  ></textarea>
-                </div>
-
-                <button type="submit" class="px-3 rounded-pill">Submit</button>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section></section>
+    <script src="fontawesome-free/js/all.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

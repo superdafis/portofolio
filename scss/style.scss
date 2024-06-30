@@ -1,5 +1,6 @@
 $darkBlue: #002174;
-$black: 131313;
+$black: #131313;
+
 .navbar {
   background-color: $darkBlue;
   .navbar-brand {
@@ -11,9 +12,6 @@ $black: 131313;
     .nav-link {
       color: white;
       font-size: 20px;
-    }
-    .nav-link.disabled {
-      color: rgb(227, 227, 227);
     }
   }
 }
@@ -40,6 +38,27 @@ $black: 131313;
   }
 }
 
+#skill {
+  padding-top: 7.5rem;
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tech {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+    h5 {
+      background-color: #002174;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
+  }
+}
+
 #project {
   padding-top: 5.5rem;
   h2 {
@@ -52,24 +71,6 @@ $black: 131313;
         background-color: $darkBlue;
         color: white;
       }
-    }
-  }
-}
-
-#contact {
-  padding-top: 5.5rem;
-  margin-bottom: 5.5rem;
-  h2 {
-    font-size: 26px;
-  }
-  form {
-    textarea {
-      height: 100px;
-    }
-    button {
-      background-color: $darkBlue;
-      color: white;
-      font-size: 1.2rem;
     }
   }
 }

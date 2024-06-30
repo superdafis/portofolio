@@ -10,9 +10,6 @@
   color: white;
   font-size: 20px;
 }
-.navbar .navbar-nav .nav-link.disabled {
-  color: rgb(227, 227, 227);
-}
 
 .jumbotron .container {
   margin-top: 5.5rem;
@@ -38,6 +35,27 @@
   }
 }
 
+#skill {
+  padding-top: 7.5rem;
+}
+#skill h2 {
+  font-size: 26px;
+  text-align: center;
+}
+#skill .tech {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px;
+}
+#skill .tech h5 {
+  background-color: #002174;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
 #project {
   padding-top: 5.5rem;
 }
@@ -50,20 +68,4 @@
 #project .card .card-body .btn {
   background-color: #002174;
   color: white;
-}
-
-#contact {
-  padding-top: 5.5rem;
-  margin-bottom: 5.5rem;
-}
-#contact h2 {
-  font-size: 26px;
-}
-#contact form textarea {
-  height: 100px;
-}
-#contact form button {
-  background-color: #002174;
-  color: white;
-  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
